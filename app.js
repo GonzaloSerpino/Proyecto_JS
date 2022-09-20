@@ -35,12 +35,12 @@ const renderProducts = () =>{
     productos.forEach(element => {
         productosDOM.innerHTML +=`
         <div class="productos" id="producto">
-                <img src="${element.img}" alt="${element.nombre}">
-                <h2 id="nombre">${element.nombre}</h2>
-                <h3 id="precio">U$D ${element.precioDol} </h3>
-                <p><strong id="detalle">Detalles: ${element.detalle}.</strong></p>
-                <button type="submit" id="btnNotebook" onclick="sumarAlCarrito(${element.id})">Comprar</button>
-            </div>
+        <img src="${element.img}" alt="${element.nombre}">
+        <h2 id="nombre">${element.nombre}</h2>
+        <h3 id="precio">U$D ${element.precioDol} </h3>
+        <p><strong id="detalle">Detalles: ${element.detalle}.</strong></p>
+        <button type="submit" id="btnNotebook" onclick="sumarAlCarrito(${element.id})">Comprar</button>
+        </div>
         `
     });
 }
@@ -53,7 +53,8 @@ const obtenerDatos = async () =>{
         productos = data;
         console.log(productos)
         //llamo a la funcion renderProducts para mostrar los productos
-        renderProducts();
+            renderProducts();
+
     }catch (error){
         console.log(error)
     }

@@ -46,5 +46,13 @@
         "detalle": "852GB SSD, incluye joystick dualsense.", 
         "img": "./img/ps5-product-thumbnail-01-en-14sep21.png", 
         "cantidad": 1
+    },
+    {
+        "id": 5, 
+        "nombre": "Playstation 5", 
+        "precioDol": 500, 
+        "detalle": "852GB SSD, incluye joystick dualsense.", 
+        "img": "./img/ps5-product-thumbnail-01-en-14sep21.png", 
+        "cantidad": 1
     }
 ]
