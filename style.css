@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+HK&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 17vh;
+    background-image: url(./img/fondo_header.jpg);
+    background-size: contain;
+    color: #B49A67;
+    font-family: 'Silkscreen', cursive;
+}
+.header h1{
+    margin: 1rem;
+}
+.header h2{
+    text-decoration: underline;
+}
+.header a{
+    text-decoration: none;
+    color: #B49A67;
+}
+.header a:hover{
+    transform: scale(1.3);
+    transition: 0.3s;
+}
+
+.main{
+    background-color: #06070E;
+
+}
+
+.destacado{
+    font-family: 'Silkscreen', cursive;
+    color: #B49A67;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: underline;
+}
+
+.articulos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-start;
+}
+.articulos img{
+    height: 30rem;
+    width: 30rem;
+}
+
+.productos{
+    border: #DB5461 groove 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    color: #FAFAFA;
+    width: 30vw;
+    height: 90vh;
+    margin: 3rem;
+}
+.productos h2{
+    font-family: 'Bebas Neue', cursive;
+    font-size: xx-large;
+    margin: 1rem;
+}
+.productos h3{
+    font-family: 'Noto Serif HK', serif;
+    font-size: x-large;
+    margin: 1rem;
+}
+.productos p{
+    font-family: 'Montserrat', sans-serif;
+    margin: 1rem;
+}
+.productos button{
+    margin: 1rem;
+    height: 4vh;
+    width: 11vw;
+}
+.productos button:active{
+    background-color: #38A3A5;
+}
+
+.cantidad{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.cantidad select{
+    padding: 0.4rem;
+}
+
+
+.formulario { 
+    background-image: url("./img/fondo_footer.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Silkscreen', cursive;
+    color: #B49A67;
+    grid-area: formulario; 
+    padding: 1rem;
+}
+.formulario .cantidad p{
+    margin: 1rem;
+    color: #FAFAFA;
+    font-family: 'Montserrat', sans-serif;
+}
+.formulario button{
+    width: 20vw;
+    height: 4vh;
+    margin: 0.5rem;
+}
+.formulario h3{
+    margin: 1rem;
+    text-align: center;
+}
+
+
+.form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: stretch;
+}
+.form input{
+    margin: 1rem;
+    width: 25vw;
+    height: 4vh;
+}
+.form textarea{
+    margin: 1rem;
+}
+.completar{
+    text-align: center;
+}
+
+
+
+
+
+.carrito{
+    bottom: 1rem;
+    right: 0;
+    position: fixed;
+    display: flex;
+    align-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    background-color: transparent;
+    border: none;
+}
+
+.carrito img{
+    height: 11vh;
+    width: 8vw;
+}
+
+.contador{
+    color: white;
+    font-size: x-large;
+    font-weight: 900;
+    position: fixed;
+    bottom: 6rem;
+    right: 0.8rem;
+    border: red solid 10px;
+    border-radius: 50%;
+    width: 3vw;
+    background-color: red;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.cuerpoModal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+}
+.cuerpoModal img{
+    margin: 0;
+    padding: 0;
+    height: 10vh;
+    width: 6vw;
+}
+.cuerpoModal h2{
+    font-size: large;
+}
+.cuerpoModal h3{
+    font-size: medium;
+}
+.cuerpoModal p{
+    font-size: small;
+    margin: 0;
+    padding: 0;
+}
+.detallesModal{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    height: 15vh;
+}
+.btnEliminar{
+    position: relative;
+    border: none;
+    background-color: transparent;
+}
+.btnEliminar img{
+    height: 7vh;
+    width: 4vw;
+}
+
+.btnBorrar{
+    position: relative;
+    left: 1rem;
+    margin: 1rem;
+    border: none;
+    background-color: transparent;
+}
+.btnBorrar img{
+    height: 7vh;
+    width: 4vw;
+}
+
+.precioProducto{
+    text-align: end;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.modal-footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}

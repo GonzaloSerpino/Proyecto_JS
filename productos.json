@@ -1,0 +1,50 @@
+[
+    {
+        "id":0,
+        "nombre": "Notebook ASUS TUF F17",
+        "precioDol": 1500,
+        "detalle": "17 pulgadas, i7-12700H, 16GB RAM, 1TB SSD, RTX 3060.",
+        "img": "./img/Asus TUF F17.png",
+        "cantidad": 1
+    },
+    {
+        "id": 1,
+        "nombre": "Oculus Quest 2",
+        "precioDol": 430,
+        "detalle": "256GB, Controles Touch, Audio 3D.",
+        "img": "./img/oculus-quest-2.png",
+        "alt":"Oculus Quest 2",
+        "cantidad": 1
+    },
+    {
+        "id": 2, 
+        "nombre": "Kindle Oasis", 
+        "precioDol": 290, 
+        "detalle": "8gb, incluye cargador, funda de cuero y soporte", 
+        "img": "./img/kindle_oasis.png", 
+        "cantidad": 1
+    },
+    {
+        "id": 3, 
+        "nombre": "Iphone 13", 
+        "precioDol": 800, 
+        "detalle": "128gb, 5.4 pulgadas, resolucion 2340 x 1080, dos camaras de 12MP  incluye cable USB-C.", 
+        "img": "./img/iphone13.png",  
+        "cantidad": 1
+    },
+    {
+        "id": 4, 
+        "nombre": "Volante Logitech G923", 
+        "precioDol": 300, 
+        "detalle": "Compatibilidad con PC y XBOX ONE, nuevo sistema TRUEFORCE, pedales incluidos.", "img": "./img/logitech.png", 
+        "cantidad": 1
+    },
+    {
+        "id": 5, 
+        "nombre": "Playstation 5", 
+        "precioDol": 500, 
+        "detalle": "852GB SSD, incluye joystick dualsense.", 
+        "img": "./img/ps5-product-thumbnail-01-en-14sep21.png", 
+        "cantidad": 1
+    }
+]
